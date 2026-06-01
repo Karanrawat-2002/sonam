@@ -1,39 +1,29 @@
 body {
       margin: 0;
       padding: 0;
+      
+    }
+    .main{
+      height: 100vh;
       font-family: 'Comic Sans MS', cursive, sans-serif;
-      background-image: url("body.jpeg");   
-      background-size: cover;
+      background-image: url("mobileview.jpeg");   
+      background-size:cover;
       background-position: center;   
       text-align: center;
       color: #fff;
       overflow-x: hidden;
     }
     h1 {
-      font-size: 1.2rem;
+      font-size: 4rem;
       margin-top: 50px;
       animation: glow 3s infinite alternate;
-      color: rgb(255, 208, 0);
+      color: rgb(255, 0, 102);
       text-shadow: 0 0 10px #000000;
+      animation: glow 3s infinite alternate;
     }
-    @media (max-width: 370px) {
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: 'Comic Sans MS', cursive, sans-serif; 
-        background-image: url("mobileview.jpeg");
-        background-size: cover;
-        background-position: center;   
-        text-align: center;
-        color: #fff;
-        overflow-x: hidden;
-        
-        background-size: cover;
-        
-      }
-    }   
+   
      h2 {
-      font-size: 20px;
+      font-size: 3rem;
       margin-bottom: 20px;
       animation: glow 3s infinite alternate;
       color: rgb(255, 208, 0);
@@ -50,7 +40,7 @@ body {
      }
     .balloon>img{
       width: 100px;
-      animation: float 3s ease-in-out infinite;   
+        
      }
     
 
@@ -75,8 +65,9 @@ body {
       100% { transform: rotate(10deg); }
     }
     
+   
     .cake img {
-      width: 250px;
+      width: 35rem;
       border-radius: 15px;
       box-shadow: 0 0 20px #fff;
       animation: swing 2s infinite alternate ease-in-out;
@@ -88,36 +79,14 @@ body {
     }
     .footer {
       margin-top: 50px;
-      font-size: 20px;
+      font-size: 3rem;
       background: rgba(0,0,0,0.3);
       padding: 15px;
       border-radius: 10px;
       display: inline-block;
     }
-.surprises {
-  margin-top: 40px;
-}
+    
+    .space{
+      height: 100rem;
+    }
 
-.btn {
-  background: linear-gradient(45deg, #ff6ec4, #7873f5);
-  border: none;
-  color: white;
-  padding: 15px 30px;
-  margin: 10px;
-  font-size: 20px;
-  border-radius: 30px;
-  cursor: pointer;
-  transition: transform 0.3s, box-shadow 0.3s;
-  animation: pulse 2s infinite;
-}
-
-.btn:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 20px #fff;
-}
-
-@keyframes pulse {
-  0% { box-shadow: 0 0 10px #ff6ec4; }
-  50% { box-shadow: 0 0 20px #7873f5; }
-  100% { box-shadow: 0 0 10px #ff6ec4; }
-}
